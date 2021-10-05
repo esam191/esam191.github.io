@@ -22,21 +22,17 @@ header{
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 header .nav-bar a{
     font-weight: 500;
-    letter-spacing: 1px;
-    padding: 3px 15px;
+    padding: 3px 30px;
     transition: 0.3s;
     font-size: 20px;
     color: rgb(170, 200, 240);
     text-decoration: none;
     border-radius: 2px;
-}
-header .nav-bar a:not(:last-child){
-    margin-right: 20px;
 }
 header .nav-bar a:hover{
     background: #0066cc;
@@ -47,7 +43,7 @@ header .logo{
 }
 .content{
     color: rgb(170, 200, 240);
-    max-width: 750px;
+    max-width: 700px;
     width: 50%;
     margin: 30px auto;
 }
@@ -68,16 +64,29 @@ header .logo{
 }
 .content .icons a{
     font-size: 70px;
-    color: rgb(170, 200, 240);
+    color: rgb(170, 200, 240); 
 }
-
 .content .icons a:not(:last-child){
     margin-right: 30px;
 }
-
-
-
-
-
-
+@media (max-width:1060px){ 
+    header .nav-bar a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .content .info h1{
+        font-size: 90px;
+    }
+    .content .info p{
+        font-size: 23px;
+    } 
+}
+@media (max-width:970px){
+    .content .info p{
+        font-size: 21px;
+    }
+    .content .info h1{
+        font-size: 80px;
+    }
+}
 
