@@ -68,6 +68,27 @@ header .logo{
 .content .icons a:not(:last-child){
     margin-right: 30px;
 }
+.content .icons a:hover{
+    font-size: 73px;
+}
+.button input{
+    background-color: rgb(170, 200, 240);
+    border: none;
+    color: #001a33;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 60px auto;
+  }
+.button input:hover{
+    background: #0066cc;
+    font-size: 20px;
+}
 @media (max-width:1060px){ 
     header .nav-bar a{
         margin-left: 10px;
@@ -78,7 +99,7 @@ header .logo{
     }
     .content .info p{
         font-size: 23px;
-    } 
+    }
 }
 @media (max-width:970px){
     .content .info p{
