@@ -92,10 +92,21 @@ img{
     background: #0066cc;
     font-size: 20px;
 }
+#dates{
+    font-size: 18px;
+    color: #0066cc;
+    font-weight: 500;
+}
+#title{
+    font-size: 20px;
+}
+#tech{
+    color: #0066cc;
+}
 @media (max-width:1060px){ 
     header .nav-bar a{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .content .info h1{
         font-size: 90px;
