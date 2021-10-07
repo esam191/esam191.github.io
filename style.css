@@ -71,6 +71,9 @@ header .logo{
 .content .icons a:hover{
     font-size: 73px;
 }
+img{
+    max-width: 100%;
+}
 .button input{
     background-color: rgb(170, 200, 240);
     border: none;
@@ -107,5 +110,8 @@ header .logo{
     }
     .content .info h1{
         font-size: 80px;
+    }
+    header .nav-bar a{
+        font-size: 17px;
     }
 }
